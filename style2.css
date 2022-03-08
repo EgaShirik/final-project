@@ -1,0 +1,308 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 1920px;
+height: 6234px;
+font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1920px;
+height: 1080px;
+
+
+background-blend-mode: multiply;
+background-image: url("./apartment-bed-bedroom-chair-271618\ 1.png") ;  
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(20, 39, 74, 0.5);
+}
+.rooms{
+    border: 2px solid #14274A;
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+}
+
+.menu{
+    display: flex;
+    /* margin-left: 1011px; */
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+margin: 0;
+}
+li{
+    list-style-type: none;
+    margin-left: 89px;
+    padding-top: 59px;
+}
+.icon{
+    margin-left: 200px;
+}
+.home{
+    margin-left: 500px;
+}
+h1{
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    letter-spacing: 0.4em;
+    
+    color: #FFFFFF;
+    margin-left: 213px;
+    margin-top: 153px;
+    
+}
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+    margin-left: 213px;
+    margin-top: 0px;
+}
+.vector{
+    width: 28px;
+    height: 23px;
+    margin-top: 22px;
+}
+.book{
+    height: 78px;
+    width: 268px;
+    background: #E0B973;
+border-radius: 1px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+margin-left: 826px;
+margin-top: 83px;
+}
+.p_button{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.scroll{
+    margin-left: 920px;
+    margin-top: 80px;
+}
+.scroll_img{
+    margin-left: 930px;
+}
+.room-types{
+    height: 484px;
+    background: white;
+    color: #14274A;
+    display: flex;
+}
+.room_t{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #14274A;
+margin-top: 83px;    
+
+
+color: #14274A;
+
+}
+.footer{
+    display: flex;
+    width: 1920px;
+    
+    background: url(./Union\ 3.png);
+    color: white;
+}
+
+.dropbtn {
+    /* background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none; */
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
+.dropbtn1 {
+    /* background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none; */
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn1:hover, .dropbtn1:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 p:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show1 {display:block;}
+
+
+
+
+.dropbtn2 {
+    /* background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none; */
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn2:hover, .dropbtn2:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 p:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show2 {display:block;}
+
+.modal, .modal1, .modal2{
+    display: none;
+    
+    z-index: 1;
+    left: 0;
+    top: 0;
+    
+    overflow: auto;
+    background-color: white;
+    color: black;
+}
+.modal-content, .modal-content1, .modal-content2{
+    background-color:white;
+    
+    border: 1px solid #888;
+    width: 50%;
+    height: 50%;
+
+}
+.close, .close1, .close2{
+    color: black;
+    float:right;
+    font-size: 28px;
+}

@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 1920px;
+height: 2638px;
+font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1920px;
+height: 465px;
+background: #14274A;
+}
+.rooms{
+    border: 2px solid #14274A;
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+}
+
+.menu{
+    display: flex;
+    /* margin-left: 1011px; */
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+margin: 0;
+}
+li{
+    list-style-type: none;
+    margin-left: 89px;
+    padding-top: 59px;
+}
+.icon{
+    margin-left: 200px;
+}
+.home{
+    margin-left: 500px;
+}
+h1{
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    letter-spacing: 0.4em;
+    
+    color: #FFFFFF;
+    margin-left: 213px;
+    margin-top: 153px;
+    
+}
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+    margin-left: 213px;
+    margin-top: 0px;
+}
+.vector{
+    width: 28px;
+    height: 23px;
+    margin-top: 22px;
+}
+.book{
+    height: 78px;
+    width: 268px;
+    background: #E0B973;
+border-radius: 1px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+margin-left: 826px;
+margin-top: 83px;
+}
+.p_button{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.scroll{
+    margin-left: 920px;
+    margin-top: 80px;
+}
+.scroll_img{
+    margin-left: 930px;
+}
+.room-types{
+    height: 484px;
+    background: white;
+    color: #14274A;
+    display: flex;
+}
+.room_t{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #14274A;
+margin-top: 83px;    
+
+
+color: #14274A;
+
+}
+.footer{
+    display: flex;
+    width: 1920px;
+    margin-top: -263px;
+    background: url(./Union\ 3.png);
+    color: white;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    color: white;
+}
+.modal-content{
+    background-color: black;
+    
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+
+}
+.close{
+    color: white;
+    float:right;
+    font-size: 28px;
+    font-weight: bold;
+}
